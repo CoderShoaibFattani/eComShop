@@ -1,0 +1,99 @@
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    /* background-color: green; */
+    height: 80px;
+    margin: 0px 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.ulbox {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ulbox li {
+    margin-right: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.link:active {
+    text-decoration: underline;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.cartIcon,
+.hamburger {
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 1rem;
+    color: white;
+    height: 40px;
+    width: 60px;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        /* background-color: #f8f8f8; */
+        padding: 1rem;
+    }
+
+    .nav-links.open {
+        display: block;
+    }
+
+    .ulbox {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .ulbox li {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .link {
+        color: white;
+    }
+}
