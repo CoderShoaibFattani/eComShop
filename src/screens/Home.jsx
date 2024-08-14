@@ -6,6 +6,7 @@ import Section from "../components/Section/Section";
 import "../App.css";
 import MUICard from "../components/MUICard/MUICard";
 import { Grid, Typography } from "@mui/material";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   const [productsData, setProductsData] = useState([]);
@@ -74,6 +75,7 @@ const Home = () => {
           })}
         </Grid>
       </Grid>
+      <Footer />
     </>
   );
 };

@@ -4,6 +4,7 @@ import axios from "axios";
 import Header from "../components/Header/Header";
 import { Grid, Typography } from "@mui/material";
 import MUICard from "../components/MUICard/MUICard";
+import Footer from "../components/Footer/Footer";
 
 import "../App.css";
 
@@ -109,6 +110,7 @@ const Products = () => {
               })}
         </Grid>
       </Grid>
+      <Footer />
     </>
   );
 };

@@ -1,0 +1,22 @@
+.gridContainer {
+    background-color: black;
+    color: white;
+    margin: 20px 0px;
+    padding: 50px;
+}
+
+.ul1 {
+    list-style-type: none;
+    margin-top: 40px;
+}
+
+.link2 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
